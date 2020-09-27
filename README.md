@@ -7,7 +7,7 @@ python3 --version
 ```
 Enter in a folder with terminal or Git bash for windows, then :
 ```sh
-git clone git@github.com:anasardico/VM-Data-Engineer.git
+git clone git@github.com:anasardico/voice_mod_data_engineer_challenge.git
 ```
 ```sh
 git pull
@@ -18,7 +18,7 @@ Unix :
 python3 -m venv venv
 ```
 ```sh
-venv\Scripts\Activate.ps1
+source venv/bin/activate
 ```
 Windows :
 ```sh
@@ -76,9 +76,5 @@ Then, create a new daily task where in the actions you put :
 deactivate
 ```
 #### Notes
-
-The file logic.txt explain my thoughts in the code developed here. 
-
-Free to explain me better.
 
 Thanks for having me!
