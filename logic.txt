@@ -1,0 +1,17 @@
+This document serves to explain my pratical solution of the first part of the challenge.
+
+etl_voice_mod :
+
+Inside the ETL proccess for the tsv you gave me, I did 3 different forms of ETL. 
+1st one I used the pandas library. 2nd onde I used the COPY statment and finally I pure python.
+
+In all of them I created a simple check to see if is the first time the data is insert, or not. 
+This prevents duplicates. And, if new data arrive, make sure that is inserted.
+I put some prints so you can see what is happening. 
+
+aggr_to_no_sql_db :
+
+This is the script that will aggregate and run daily.
+I did a logic to check data inside MongoDB to understand if something is there and if is the same that we have from the current select.
+One improvment could be deal with the first time data is inserted. That part of the code, will run only one time in prodution.
+If insert manually that first time statment would not be necessary.
